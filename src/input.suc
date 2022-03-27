@@ -1,0 +1,19 @@
+PROGRAM exemplo;
+
+VAR a, b: INTEGER;
+
+BEGIN
+  READ(a, b);
+  IF a > b THEN
+    BEGIN
+      WRITE(a, 'maior do que', b)
+    END;
+  IF a == b THEN
+    BEGIN
+      WRITE(a, 'igual a', b)
+    END;
+  IF a < b THEN
+    BEGIN
+      WRITE(b, 'maior do que', a)
+    END
+END.
